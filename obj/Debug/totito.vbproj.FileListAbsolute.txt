@@ -10,3 +10,15 @@ c:\users\selmy\documents\visual studio 2015\Projects\totito\totito\obj\Debug\tot
 c:\users\selmy\documents\visual studio 2015\Projects\totito\totito\obj\Debug\totito.xml
 c:\users\selmy\documents\visual studio 2015\Projects\totito\totito\obj\Debug\totito.pdb
 c:\users\selmy\documents\visual studio 2015\Projects\totito\totito\obj\Debug\totito.SplashScreen1.resources
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\bin\Debug\totito.exe.config
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.exe
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.xml
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.pdb
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\bin\Debug\totito.exe
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\bin\Debug\totito.pdb
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\bin\Debug\totito.xml
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.vbprojResolveAssemblyReference.cache
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.Form1.resources
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.Resources.resources
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.SplashScreen1.resources
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.vbproj.GenerateResource.Cache
