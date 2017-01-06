@@ -45,7 +45,7 @@ Partial Class Form1
         'b1
         '
         Me.b1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b1.Location = New System.Drawing.Point(94, 22)
+        Me.b1.Location = New System.Drawing.Point(135, 29)
         Me.b1.Name = "b1"
         Me.b1.Size = New System.Drawing.Size(90, 74)
         Me.b1.TabIndex = 0
@@ -54,7 +54,7 @@ Partial Class Form1
         'b2
         '
         Me.b2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b2.Location = New System.Drawing.Point(229, 22)
+        Me.b2.Location = New System.Drawing.Point(270, 29)
         Me.b2.Name = "b2"
         Me.b2.Size = New System.Drawing.Size(90, 74)
         Me.b2.TabIndex = 1
@@ -63,7 +63,7 @@ Partial Class Form1
         'b3
         '
         Me.b3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b3.Location = New System.Drawing.Point(362, 22)
+        Me.b3.Location = New System.Drawing.Point(403, 29)
         Me.b3.Name = "b3"
         Me.b3.Size = New System.Drawing.Size(90, 74)
         Me.b3.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class Form1
         'b6
         '
         Me.b6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b6.Location = New System.Drawing.Point(362, 112)
+        Me.b6.Location = New System.Drawing.Point(403, 119)
         Me.b6.Name = "b6"
         Me.b6.Size = New System.Drawing.Size(90, 74)
         Me.b6.TabIndex = 5
@@ -81,7 +81,7 @@ Partial Class Form1
         'b5
         '
         Me.b5.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b5.Location = New System.Drawing.Point(229, 112)
+        Me.b5.Location = New System.Drawing.Point(270, 119)
         Me.b5.Name = "b5"
         Me.b5.Size = New System.Drawing.Size(90, 74)
         Me.b5.TabIndex = 4
@@ -90,7 +90,7 @@ Partial Class Form1
         'b4
         '
         Me.b4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b4.Location = New System.Drawing.Point(94, 112)
+        Me.b4.Location = New System.Drawing.Point(135, 119)
         Me.b4.Name = "b4"
         Me.b4.Size = New System.Drawing.Size(90, 74)
         Me.b4.TabIndex = 3
@@ -99,7 +99,7 @@ Partial Class Form1
         'b9
         '
         Me.b9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b9.Location = New System.Drawing.Point(362, 208)
+        Me.b9.Location = New System.Drawing.Point(403, 215)
         Me.b9.Name = "b9"
         Me.b9.Size = New System.Drawing.Size(90, 74)
         Me.b9.TabIndex = 8
@@ -108,7 +108,7 @@ Partial Class Form1
         'b8
         '
         Me.b8.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b8.Location = New System.Drawing.Point(229, 208)
+        Me.b8.Location = New System.Drawing.Point(270, 215)
         Me.b8.Name = "b8"
         Me.b8.Size = New System.Drawing.Size(90, 74)
         Me.b8.TabIndex = 7
@@ -117,7 +117,7 @@ Partial Class Form1
         'b7
         '
         Me.b7.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b7.Location = New System.Drawing.Point(94, 208)
+        Me.b7.Location = New System.Drawing.Point(135, 215)
         Me.b7.Name = "b7"
         Me.b7.Size = New System.Drawing.Size(90, 74)
         Me.b7.TabIndex = 6
@@ -126,7 +126,7 @@ Partial Class Form1
         'Button10
         '
         Me.Button10.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(199, 472)
+        Me.Button10.Location = New System.Drawing.Point(300, 472)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(141, 38)
         Me.Button10.TabIndex = 9
@@ -139,7 +139,7 @@ Partial Class Form1
         Me.Label1.BackColor = System.Drawing.Color.Black
         Me.Label1.Font = New System.Drawing.Font("Showcard Gothic", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Yellow
-        Me.Label1.Location = New System.Drawing.Point(44, 410)
+        Me.Label1.Location = New System.Drawing.Point(128, 413)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(0, 37)
         Me.Label1.TabIndex = 10
@@ -147,7 +147,7 @@ Partial Class Form1
         'b10
         '
         Me.b10.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b10.Location = New System.Drawing.Point(94, 300)
+        Me.b10.Location = New System.Drawing.Point(135, 307)
         Me.b10.Name = "b10"
         Me.b10.Size = New System.Drawing.Size(90, 74)
         Me.b10.TabIndex = 11
@@ -156,7 +156,7 @@ Partial Class Form1
         'b11
         '
         Me.b11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b11.Location = New System.Drawing.Point(229, 300)
+        Me.b11.Location = New System.Drawing.Point(270, 307)
         Me.b11.Name = "b11"
         Me.b11.Size = New System.Drawing.Size(90, 74)
         Me.b11.TabIndex = 12
@@ -165,7 +165,7 @@ Partial Class Form1
         'b12
         '
         Me.b12.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b12.Location = New System.Drawing.Point(362, 300)
+        Me.b12.Location = New System.Drawing.Point(403, 307)
         Me.b12.Name = "b12"
         Me.b12.Size = New System.Drawing.Size(90, 74)
         Me.b12.TabIndex = 13
@@ -174,7 +174,7 @@ Partial Class Form1
         'b34
         '
         Me.b34.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b34.Location = New System.Drawing.Point(476, 22)
+        Me.b34.Location = New System.Drawing.Point(517, 29)
         Me.b34.Name = "b34"
         Me.b34.Size = New System.Drawing.Size(90, 74)
         Me.b34.TabIndex = 14
@@ -183,7 +183,7 @@ Partial Class Form1
         'b64
         '
         Me.b64.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b64.Location = New System.Drawing.Point(476, 112)
+        Me.b64.Location = New System.Drawing.Point(517, 119)
         Me.b64.Name = "b64"
         Me.b64.Size = New System.Drawing.Size(90, 74)
         Me.b64.TabIndex = 15
@@ -192,7 +192,7 @@ Partial Class Form1
         'b94
         '
         Me.b94.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b94.Location = New System.Drawing.Point(476, 208)
+        Me.b94.Location = New System.Drawing.Point(517, 215)
         Me.b94.Name = "b94"
         Me.b94.Size = New System.Drawing.Size(90, 74)
         Me.b94.TabIndex = 16
@@ -201,7 +201,7 @@ Partial Class Form1
         'b124
         '
         Me.b124.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.b124.Location = New System.Drawing.Point(476, 300)
+        Me.b124.Location = New System.Drawing.Point(517, 307)
         Me.b124.Name = "b124"
         Me.b124.Size = New System.Drawing.Size(90, 74)
         Me.b124.TabIndex = 17
