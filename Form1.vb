@@ -58,10 +58,13 @@
             b124.Text = "O"
         End If
         If nGanador = 0 Then
-            Label1.Text = "Felicidades has ganado!!!"
+            ' Label1.Text = "Felicidades has ganado!!!"
+            SplashScreen2.Show()
+            Me.Hide()
         End If
         If nGanador = 1 Then
             Label1.Text = "Que lo siento has perdido :("
+
         End If
         If nGanador = -1 Then
             If c.tableroCompleto() = True Then
@@ -228,25 +231,41 @@
         c.empezarPartida()
         nTablero = c.getTablero
         nGanador = -1
+        'limpio los text de los botones los dejo vacios
         b1.Text = ""
         b2.Text = ""
         b3.Text = ""
+        b34.Text = ""
         b4.Text = ""
         b5.Text = ""
         b6.Text = ""
+        b64.Text = ""
         b7.Text = ""
         b8.Text = ""
         b9.Text = ""
+        b94.Text = ""
+        b10.Text = ""
+        b11.Text = ""
+        b12.Text = ""
+        b124.Text = ""
         Label1.Text = ""
+        'limpio los colores de cada boton, los regreso a negro
         b1.ForeColor = Color.Black
         b2.ForeColor = Color.Black
         b3.ForeColor = Color.Black
+        b34.ForeColor = Color.Black
         b4.ForeColor = Color.Black
         b5.ForeColor = Color.Black
         b6.ForeColor = Color.Black
+        b64.ForeColor = Color.Black
         b7.ForeColor = Color.Black
         b8.ForeColor = Color.Black
         b9.ForeColor = Color.Black
+        b94.ForeColor = Color.Black
+        b10.ForeColor = Color.Black
+        b11.ForeColor = Color.Black
+        b12.ForeColor = Color.Black
+        b124.ForeColor = Color.Black
     End Sub
 
 

@@ -22,3 +22,5 @@ C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.For
 C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.Resources.resources
 C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.SplashScreen1.resources
 C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.vbproj.GenerateResource.Cache
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.Experto.resources
+C:\Users\Selmy\Documents\Visual Studio 2015\Projects\totito\obj\Debug\totito.SplashScreen2.resources
