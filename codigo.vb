@@ -1,5 +1,5 @@
 ﻿Public Class codigo
-    Private nTablero(2, 2) As Integer
+    Private nTablero(3, 3) As Integer
     Private nGanador As Integer = -1
     Private nContar As Integer = 0
     Private ub(2) As Integer
@@ -9,8 +9,8 @@
     End Function
 
     Public Function empezarPartida()
-        For x As Integer = 0 To 2
-            For y As Integer = 0 To 2
+        For x As Integer = 0 To 3
+            For y As Integer = 0 To 3
                 nTablero(x, y) = -1
             Next
         Next
@@ -19,36 +19,37 @@
     End Function
 
     Public Function pulsaBoton(ByVal n, ByVal m)
-        If n >= 0 And n < 3 And m < 3 And nTablero(n, m) = -1 Then
+        If n >= 0 And n < 4 And m < 4 And nTablero(n, m) = -1 Then
             If nGanador = -1 Then
                 nTablero(n, m) = 0
                 nGanador = ganarPartida()
                 ponerFichaCompu()
             End If
         End If
+        Return Nothing
     End Function
 
     Public Function ganarPartida()
         'verficando diagonal \
-        If nTablero(0, 0) <> -1 And nTablero(0, 0) = nTablero(1, 1) And nTablero(0, 0) = nTablero(2, 2) Then
+        If nTablero(0, 0) <> -1 And nTablero(0, 0) = nTablero(1, 1) And nTablero(0, 0) = nTablero(2, 2) And nTablero(0, 0) = nTablero(3, 3) Then
             'si retorna 0,0 gana usuario 
             'si retorna 0,1 gana la compucita
             Return nTablero(0, 0)
         End If
         'verficando diagonal /
-        If nTablero(0, 2) <> -1 And nTablero(0, 2) = nTablero(1, 1) And nTablero(0, 2) = nTablero(2, 0) Then
+        If nTablero(0, 3) <> -1 And nTablero(0, 3) = nTablero(1, 2) And nTablero(0, 3) = nTablero(2, 1) And nTablero(0, 3) = nTablero(3, 0) Then
             'si retorna 0,0 gana usuario 
             'si retorna 0,2 gana la compucita
-            Return nTablero(0, 2)
+            Return nTablero(0, 3)
         End If
         'verficando filas horizontales y las verticales
-        For n As Integer = 0 To 2
-            If nTablero(n, 0) <> -1 And nTablero(n, 0) = nTablero(n, 1) And nTablero(n, 0) = nTablero(n, 2) Then
+        For n As Integer = 0 To 3
+            If nTablero(n, 0) <> -1 And nTablero(n, 0) = nTablero(n, 1) And nTablero(n, 0) = nTablero(n, 2) And nTablero(n, 0) = nTablero(n, 3) Then
                 'si retorna 0,0 gana usuario 
                 'si retorna n, 0 gana la compucita
                 Return nTablero(n, 0)
             End If
-            If nTablero(0, n) <> -1 And nTablero(0, n) = nTablero(1, n) And nTablero(0, n) = nTablero(2, n) Then
+            If nTablero(0, n) <> -1 And nTablero(0, n) = nTablero(1, n) And nTablero(0, n) = nTablero(2, n) And nTablero(0, n) = nTablero(3, n) Then
                 'si retorna 0,0 gana usuario 
                 'si retorna 0,n gana la compucita
                 Return nTablero(0, n)
@@ -70,8 +71,8 @@
     'luego que el jugador puso su ficha
 
     Public Function tableroCompleto()
-        For x As Integer = 0 To 2
-            For y As Integer = 0 To 2
+        For x As Integer = 0 To 3
+            For y As Integer = 0 To 3
                 If nTablero(x, y) = -1 Then
                     Return False
                 End If
@@ -92,8 +93,8 @@
             Dim v As Integer = Integer.MinValue
             Dim aux As Integer
 
-            For x As Integer = 0 To 2
-                For y As Integer = 0 To 2
+            For x As Integer = 0 To 3
+                For y As Integer = 0 To 3
                     If nTablero(x, y) = -1 Then
                         nTablero(x, y) = 1
                         aux = min()
@@ -110,6 +111,7 @@
             ub(0) = f
             ub(1) = c
         End If
+
     End Function
 
     'recursividad del max
@@ -136,7 +138,7 @@
                 End If
             Next
         Next
-            Return v
+        Return v
 
     End Function
 
@@ -151,11 +153,11 @@
 
         Dim v As Integer = Integer.MaxValue
         Dim aux As Integer
-        For x As Integer = 0 To 2
+        For x As Integer = 0 To 1
             For y As Integer = 0 To 2
                 If nTablero(x, y) = -1 Then
                     nTablero(x, y) = 0
-                    aux = min()
+                    aux = max()
                     If aux < v Then
                         v = aux
                     End If

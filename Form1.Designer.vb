@@ -36,6 +36,10 @@ Partial Class Form1
         Me.b10 = New System.Windows.Forms.Button()
         Me.b11 = New System.Windows.Forms.Button()
         Me.b12 = New System.Windows.Forms.Button()
+        Me.b34 = New System.Windows.Forms.Button()
+        Me.b64 = New System.Windows.Forms.Button()
+        Me.b94 = New System.Windows.Forms.Button()
+        Me.b124 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'b1
@@ -167,6 +171,42 @@ Partial Class Form1
         Me.b12.TabIndex = 13
         Me.b12.UseVisualStyleBackColor = True
         '
+        'b34
+        '
+        Me.b34.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b34.Location = New System.Drawing.Point(476, 22)
+        Me.b34.Name = "b34"
+        Me.b34.Size = New System.Drawing.Size(90, 74)
+        Me.b34.TabIndex = 14
+        Me.b34.UseVisualStyleBackColor = True
+        '
+        'b64
+        '
+        Me.b64.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b64.Location = New System.Drawing.Point(476, 112)
+        Me.b64.Name = "b64"
+        Me.b64.Size = New System.Drawing.Size(90, 74)
+        Me.b64.TabIndex = 15
+        Me.b64.UseVisualStyleBackColor = True
+        '
+        'b94
+        '
+        Me.b94.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b94.Location = New System.Drawing.Point(476, 208)
+        Me.b94.Name = "b94"
+        Me.b94.Size = New System.Drawing.Size(90, 74)
+        Me.b94.TabIndex = 16
+        Me.b94.UseVisualStyleBackColor = True
+        '
+        'b124
+        '
+        Me.b124.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b124.Location = New System.Drawing.Point(476, 300)
+        Me.b124.Name = "b124"
+        Me.b124.Size = New System.Drawing.Size(90, 74)
+        Me.b124.TabIndex = 17
+        Me.b124.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -174,7 +214,11 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = Global.totito.My.Resources.Resources.Video_juego_Gold_Minecraft_480826
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(543, 522)
+        Me.ClientSize = New System.Drawing.Size(756, 522)
+        Me.Controls.Add(Me.b124)
+        Me.Controls.Add(Me.b94)
+        Me.Controls.Add(Me.b64)
+        Me.Controls.Add(Me.b34)
         Me.Controls.Add(Me.b12)
         Me.Controls.Add(Me.b11)
         Me.Controls.Add(Me.b10)
@@ -211,4 +255,8 @@ Partial Class Form1
     Friend WithEvents b10 As Button
     Friend WithEvents b11 As Button
     Friend WithEvents b12 As Button
+    Friend WithEvents b34 As Button
+    Friend WithEvents b64 As Button
+    Friend WithEvents b94 As Button
+    Friend WithEvents b124 As Button
 End Class
