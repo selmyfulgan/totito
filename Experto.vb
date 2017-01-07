@@ -350,36 +350,54 @@
         e2.Text = ""
         e3.Text = ""
         e34.Text = ""
+        e344.Text = ""
         e4.Text = ""
         e5.Text = ""
         e6.Text = ""
         e64.Text = ""
+        e644.Text = ""
         e7.Text = ""
         e8.Text = ""
         e9.Text = ""
         e94.Text = ""
+        e944.Text = ""
         e10.Text = ""
         e11.Text = ""
         e12.Text = ""
         e124.Text = ""
-        Label1.Text = ""
+        e1244.Text = ""
+        e13.Text = ""
+        e14.Text = ""
+        e15.Text = ""
+        e154.Text = ""
+        e1544.Text = ""
+        mensaje.Text = ""
         'limpio los colores de cada boton, los regreso a negro
         e1.ForeColor = Color.Black
         e2.ForeColor = Color.Black
         e3.ForeColor = Color.Black
         e34.ForeColor = Color.Black
+        e344.ForeColor = Color.Black
         e4.ForeColor = Color.Black
         e5.ForeColor = Color.Black
         e6.ForeColor = Color.Black
         e64.ForeColor = Color.Black
+        e644.ForeColor = Color.Black
         e7.ForeColor = Color.Black
         e8.ForeColor = Color.Black
         e9.ForeColor = Color.Black
         e94.ForeColor = Color.Black
+        e944.ForeColor = Color.Black
         e10.ForeColor = Color.Black
         e11.ForeColor = Color.Black
         e12.ForeColor = Color.Black
         e124.ForeColor = Color.Black
+        e1244.ForeColor = Color.Black
+        e13.ForeColor = Color.Black
+        e14.ForeColor = Color.Black
+        e15.ForeColor = Color.Black
+        e154.ForeColor = Color.Black
+        e1544.ForeColor = Color.Black
     End Sub
 
 End Class
